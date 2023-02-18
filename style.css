@@ -1,7 +1,62 @@
-#photo-sec
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap%27');
+*
 {
-    height: 40rem;
+    font-family: "IBM Plex Sans","sans-serif";
+}
+#main
+{
+    padding: 0;
+    overflow: hidden;
+}
+#rowf
+{
+    height:80%;
+}
+#heading
+{
+    padding: 2em 0 3em 1em;
+    width: 70%;
+    height: 14rem;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.photo-sec
+{
+    height: 96vh;
     background: url('./photo/main-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.logo
+{   
+    max-width: 4%;
+    background-color: rgb(0, 217, 255);
+    height: 6%;
+    margin-left: 3em;
+}
+#head-l1
+{
+    text-align: right;
+    color: white;
+    max-height: 80%;
+    background-color: rgba(92, 91, 97, 0.745);
+    padding: 2rem 4rem 3rem 0;
+    font-size: 2rem;
+}
+#rows
+{
+    height: 20%;
+}
+#bottomL
+{
+    color: white;
+    background-color: rgba(255, 255, 0, 0.524);
+    padding: 1rem 5rem;
+    font-size: 250%;
+    height: 100%;
+}
+#bottomR
+{
+    direction: rtl;
+    max-height: 20%;
+    color: white;
 }
