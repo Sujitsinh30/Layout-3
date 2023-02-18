@@ -10,7 +10,7 @@
 }
 #rowf
 {
-    height:80%;
+    height:70%;
 }
 #heading
 {
@@ -21,7 +21,7 @@
 }
 .photo-sec
 {
-    height: 96vh;
+    height: 100vh;
     background: url('./photo/main-image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,26 +37,28 @@
 {
     text-align: right;
     color: white;
-    max-height: 80%;
+    height: 100%;
     background-color: rgba(92, 91, 97, 0.745);
     padding: 2rem 4rem 3rem 0;
     font-size: 2rem;
 }
 #rows
 {
-    height: 20%;
+    height: 30%;
 }
 #bottomL
 {
     color: white;
     background-color: rgba(255, 255, 0, 0.524);
     padding: 1rem 5rem;
-    font-size: 250%;
+    font-size:360%;
     height: 100%;
 }
 #bottomR
 {
-    direction: rtl;
+    padding: 2rem 2rem;
     max-height: 20%;
     color: white;
+    direction: rtl;
+    text-align: right;
 }
