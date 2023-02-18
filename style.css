@@ -56,9 +56,28 @@
 }
 #bottomR
 {
-    padding: 2rem 2rem;
-    max-height: 20%;
+    height: 100%;
     color: white;
-    direction: rtl;
     text-align: right;
+} 
+.content
+{
+    background-color: white;
+    height: 100vh;
+}
+#mid
+{
+    height: 30%;
+}   
+#midl
+{
+    padding: 1rem 4rem;
+}
+#midr
+{
+    background-color: rgb(0, 217, 255);
+}
+#bottom
+{
+    height: 70%;
 }
