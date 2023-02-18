@@ -59,6 +59,7 @@
     height: 100%;
     color: white;
     text-align: right;
+    padding: 2rem 3%;
 } 
 .content
 {
@@ -75,9 +76,18 @@
 }
 #midr
 {
-    background-color: rgb(0, 217, 255);
+    background-color: #39bbdb;
 }
 #bottom
 {
     height: 70%;
+}
+#lbt
+{
+    height: 100%;
+    background-color: #b2b7b75c;
+}
+#rbt
+{
+    
 }
